@@ -62,3 +62,22 @@ section {
   background-color: black;
   color: white;
 }
+.character-container {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 40px;
+}
+.character {
+  margin: 10px;
+  border: 2px solid blue;
+  padding: 10px;
+}
+
+.character img {
+  height: 400px;
+  width: 400px;
+}
+.character h2 {
+  text-align: center;
+  background-color: black;
+  color: white;
