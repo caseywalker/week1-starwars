@@ -1,3 +1,64 @@
 body {
-  background-color: rgb(22, 22, 71);
+  background-color: steelblue;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: aqua;
+  color: black
+}
+
+/* article {
+  display: flex;
+  flex-flow: row wrap;
+} */
+
+section {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 20px;
+}
+
+.section-1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font font-weight: bold;
+}
+
+.card-container {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 40px;
+}
+
+.card {
+  margin: 10px;
+  border: 2px solid blue;
+  padding: 10px;
+}
+
+.card img {
+  height: 400px;
+}
+
+.card h2 {
+  text-align: center;
+  background-color: black;
+  color: white;
 }
